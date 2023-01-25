@@ -1,0 +1,149 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navcenter{
+    width: 90vw;
+    max-width: ;
+    
+}
+
+.nav-header{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+    display: flex;
+    align-items: center
+}
+.nav-header img{
+    width: ;
+}
+.nav-btn{
+    padding: 0.15rem 0.75rem;
+}
+.nav-btn i{
+    font-size: 1.25rem;
+}
+.nav-links{
+    display: flexbox;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    transition: ;
+}
+.show-links {
+    height: 310px;
+}
+.nav-link{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: ;
+    letter-spacing: ;
+    padding: 1rem 0;
+    border-top: 1px solid  ;
+    transition: ;
+}
+.nav-link:hover {
+    color: ;
+}
+.contact-link a{
+    padding: 0.15rem 1rem;
+}
+@media screen and (min-width:992){
+    .nav-btn{
+        display: none;
+    }
+    .navbar{
+        height: 6rem;
+    }
+    .navcenter{
+        display: flex;
+        align-items: center;
+    }
+    .nav-header{
+        height: auto;
+        margin-right: 2rem;
+    }
+    .nav-links{
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    .nav-link {
+        padding: 0;
+        border-top: none;
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+    .contact-link {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+
+.page {
+    background: red; 
+    width: 90%;
+    max-width: ;
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: cal(100vh-(6rem + 4rem));  
+}
+
+.page-footer {
+    height: 4rem;
+    text-align: center;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-footer p {
+    margin-bottom: 0;
+}
+.footer-logo,
+.page-footer a {
+    color: ;
+}
+
+
+.hero {
+    height: 40vh;
+    background: ;
+    margin-bottom: 2rem;
+    border-radius: ;
+    position: relative;
+}
+
+.hero-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba 0, 0, 0, 0.4;
+    border-radius: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center;
+    color: ;
+}
+@media screen and (min-width:760) {
+    .hero-text h1{
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+}
