@@ -226,3 +226,22 @@
     }
 >>>>>>> 76a1b4fe31581741ffd3af3bf847e272edf44c4f
 }
+.recipe-container {
+    display: flex;
+    gap: 2rem 1rem;
+    border: 2px solid red;
+}
+
+.tags-container {
+    border: 2px solid blue;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+.recipes-lists{
+    display: grid;
+    gap: 2rem 1rem;
+    padding-bottom: 3rem;
+}
