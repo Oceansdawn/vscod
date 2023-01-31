@@ -244,4 +244,74 @@
     display: grid;
     gap: 2rem 1rem;
     padding-bottom: 3rem;
+    border: 2px solid green;
+}
+.tags-container h4 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+.tags-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.tags-list a {
+    text-transform: capitalize;
+    display: block;
+    color:;
+    transition: ;
+}
+.tag-list a:hover {
+    color: ;
+}
+.recipe {
+    display: block;
+}
+.recipe-img {
+    height: 15rem;
+    border-radius: ;
+    margin-bottom: 1rem;
+}
+.recipe h5{
+    margin-bottom: 0;
+    line-height: 1;
+    color: ;
+}
+.recipe p{
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0.5rem;
+    color: ;
+    letter-spacing: ;
+}
+@media screen and (min-width: 576px) {
+    .recipes-lists{
+        grid-template-columns: 1fr 1fr;
+    }
+    .recipe-img{
+        height: 10rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .recipe-container{
+        grid-template-columns: 200px 1fr;
+    }
+    .recipe p{
+        font-size: 0.5rem;
+    }
+    .tags-container{
+        order: 0;
+    }
+    .tags-list{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .recipe h5{
+        font-size: 1.15rem;
+    }
+    .recipes-lists{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
