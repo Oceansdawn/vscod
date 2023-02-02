@@ -324,6 +324,32 @@
     font-size: 9rem;
 }
 
+.about-page h2 {
+    text-transform: none;
+    font-weight: bold;
+}
+
+.about-page {
+    display: grid;
+    gap: 2rem 4rem;
+    padding-bottom: 3rem;
+}
+
+.about-img {
+    border-radius: ;
+    height: 300px;
+}
+
+@media screen and (min-width:992) {
+    .about-page { 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    align-items: center;}
+    .about-img {
+        height: 100ppx;
+    }
+}
+
 .featured-title {
     text-align: center;
 }
