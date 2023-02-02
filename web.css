@@ -323,3 +323,7 @@
 .error-page h1{
     font-size: 9rem;
 }
+
+.featured-title {
+    text-align: center;
+}
