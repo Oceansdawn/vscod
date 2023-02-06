@@ -356,4 +356,58 @@
 
 .contact-form {
     width: 100;
+    margin: 0;
+}
+
+.contact-container {
+    display: grid;
+    gap: 2rem 3rem;
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width:992) {
+    .contact-container {
+        grid-template-columns: 1fr 450px;
+        align-items: center;
+    }
+    
+}
+
+.tags-wrapper {
+    display: grid;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.tag {
+    background: ;
+    border-radius: ;
+    text-align: center;
+    color: ;
+    transition: ;
+    padding: 0.75rem 0;
+}
+
+.tag:hover {
+    background: ;
+}
+
+.tag h5,
+.tag p {
+    margin-bottom: 0;
+}
+.tag h5{
+    font-weight: 600;
+}
+
+@media screen and (min-width:576) {
+    .tags-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (min-width:992) {
+        .tags-wrapper{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    
 }
