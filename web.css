@@ -346,10 +346,14 @@
     grid-template-rows: 400px;
     align-items: center;}
     .about-img {
-        height: 100ppx;
+        height: 100px;
     }
 }
 
 .featured-title {
     text-align: center;
+}
+
+.contact-form {
+    width: 100;
 }
